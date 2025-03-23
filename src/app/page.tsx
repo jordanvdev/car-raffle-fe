@@ -1,7 +1,9 @@
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to Car Raffle</h1>
+      <div className="text-container">
+        <h1>Welcome to Car Raffle</h1>
+      </div>
     </main>
   );
 }
