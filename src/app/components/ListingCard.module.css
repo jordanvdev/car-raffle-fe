@@ -1,0 +1,45 @@
+.listing-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.listing-card:hover {
+  transform: translateY(-5px);
+}
+
+.listing-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.listing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.listing-info {
+  padding: 1.5rem;
+}
+
+.listing-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.end-date {
+  color: rgb(var(--accent-purple));
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #fff;
+} 
